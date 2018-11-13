@@ -4,8 +4,8 @@ echo "App started"
 
 while true
 do
-    date >> output.txt
+    date >> data/output.txt
     echo "Output content:"
-    cat output.txt
+    cat data/output.txt
 	sleep 1
 done
